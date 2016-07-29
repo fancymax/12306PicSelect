@@ -12,7 +12,7 @@
 		F19F05441C33CCF3006E459C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19F05421C33CCF3006E459C /* MainMenu.xib */; };
 		F19F054D1C33CD67006E459C /* RandCodeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F054C1C33CD67006E459C /* RandCodeImageView.swift */; };
 		F19F054F1C33D1C4006E459C /* getPassCodeNew.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */; };
-		F1BBFB591C34BB7300E8C7AB /* 12306pictureselect_for_os_x(swift).md in Sources */ = {isa = PBXBuildFile; fileRef = F1BBFB581C34BB7300E8C7AB /* 12306pictureselect_for_os_x(swift).md */; };
+		F1D6B85C1C8E7B4900B51383 /* RandCodeImageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		F19F05451C33CCF3006E459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SelectImageDemo/Info.plist; sourceTree = "<group>"; };
 		F19F054C1C33CD67006E459C /* RandCodeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandCodeImageView.swift; sourceTree = "<group>"; };
 		F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = getPassCodeNew.jpeg; sourceTree = "<group>"; };
-		F1BBFB581C34BB7300E8C7AB /* 12306pictureselect_for_os_x(swift).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "12306pictureselect_for_os_x(swift).md"; sourceTree = "<group>"; };
+		F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandCodeImageView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,6 @@
 		F19F05321C33CCF3006E459C = {
 			isa = PBXGroup;
 			children = (
-				F1BBFB581C34BB7300E8C7AB /* 12306pictureselect_for_os_x(swift).md */,
 				F19F053D1C33CCF3006E459C /* SelectImageDemo */,
 				F19F053C1C33CCF3006E459C /* Products */,
 			);
@@ -61,6 +60,7 @@
 				F19F053E1C33CCF3006E459C /* AppDelegate.swift */,
 				F19F05421C33CCF3006E459C /* MainMenu.xib */,
 				F19F054C1C33CD67006E459C /* RandCodeImageView.swift */,
+				F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */,
 				F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */,
 			);
 			path = SelectImageDemo;
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1BBFB591C34BB7300E8C7AB /* 12306pictureselect_for_os_x(swift).md in Sources */,
+				F1D6B85C1C8E7B4900B51383 /* RandCodeImageView2.swift in Sources */,
 				F19F054D1C33CD67006E459C /* RandCodeImageView.swift in Sources */,
 				F19F053F1C33CCF3006E459C /* AppDelegate.swift in Sources */,
 			);

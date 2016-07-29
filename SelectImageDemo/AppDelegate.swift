@@ -12,7 +12,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-    @IBOutlet weak var imageView: RandCodeImageView!
+    @IBOutlet weak var imageView: RandCodeImageView2!
     @IBOutlet weak var randCodeLabel: NSTextField!
     
     @IBAction func getRandCode(sender: AnyObject) {
