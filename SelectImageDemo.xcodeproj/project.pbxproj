@@ -7,22 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F13A2F131D4C64AD00487B66 /* a1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F061D4C64AD00487B66 /* a1.jpeg */; };
+		F13A2F141D4C64AD00487B66 /* a2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F071D4C64AD00487B66 /* a2.jpeg */; };
+		F13A2F151D4C64AD00487B66 /* a3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F081D4C64AD00487B66 /* a3.jpeg */; };
+		F13A2F161D4C64AD00487B66 /* a4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F091D4C64AD00487B66 /* a4.jpeg */; };
+		F13A2F171D4C64AD00487B66 /* b1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0A1D4C64AD00487B66 /* b1.jpeg */; };
+		F13A2F181D4C64AD00487B66 /* b2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0B1D4C64AD00487B66 /* b2.jpeg */; };
+		F13A2F191D4C64AD00487B66 /* b3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0C1D4C64AD00487B66 /* b3.jpeg */; };
+		F13A2F1A1D4C64AD00487B66 /* b4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0D1D4C64AD00487B66 /* b4.jpeg */; };
+		F13A2F1B1D4C64AD00487B66 /* b5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0E1D4C64AD00487B66 /* b5.jpeg */; };
+		F13A2F1C1D4C64AD00487B66 /* b6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F0F1D4C64AD00487B66 /* b6.jpeg */; };
+		F13A2F1D1D4C64AD00487B66 /* b7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F101D4C64AD00487B66 /* b7.jpeg */; };
+		F13A2F1E1D4C64AD00487B66 /* b8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F111D4C64AD00487B66 /* b8.jpeg */; };
+		F13A2F1F1D4C64AD00487B66 /* b9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F13A2F121D4C64AD00487B66 /* b9.jpeg */; };
 		F19F053F1C33CCF3006E459C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F053E1C33CCF3006E459C /* AppDelegate.swift */; };
 		F19F05411C33CCF3006E459C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19F05401C33CCF3006E459C /* Assets.xcassets */; };
 		F19F05441C33CCF3006E459C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19F05421C33CCF3006E459C /* MainMenu.xib */; };
 		F19F054D1C33CD67006E459C /* RandCodeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F054C1C33CD67006E459C /* RandCodeImageView.swift */; };
-		F19F054F1C33D1C4006E459C /* getPassCodeNew.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */; };
 		F1D6B85C1C8E7B4900B51383 /* RandCodeImageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F13A2F061D4C64AD00487B66 /* a1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a1.jpeg; sourceTree = "<group>"; };
+		F13A2F071D4C64AD00487B66 /* a2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpeg; sourceTree = "<group>"; };
+		F13A2F081D4C64AD00487B66 /* a3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a3.jpeg; sourceTree = "<group>"; };
+		F13A2F091D4C64AD00487B66 /* a4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a4.jpeg; sourceTree = "<group>"; };
+		F13A2F0A1D4C64AD00487B66 /* b1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b1.jpeg; sourceTree = "<group>"; };
+		F13A2F0B1D4C64AD00487B66 /* b2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b2.jpeg; sourceTree = "<group>"; };
+		F13A2F0C1D4C64AD00487B66 /* b3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b3.jpeg; sourceTree = "<group>"; };
+		F13A2F0D1D4C64AD00487B66 /* b4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b4.jpeg; sourceTree = "<group>"; };
+		F13A2F0E1D4C64AD00487B66 /* b5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b5.jpeg; sourceTree = "<group>"; };
+		F13A2F0F1D4C64AD00487B66 /* b6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b6.jpeg; sourceTree = "<group>"; };
+		F13A2F101D4C64AD00487B66 /* b7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b7.jpeg; sourceTree = "<group>"; };
+		F13A2F111D4C64AD00487B66 /* b8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b8.jpeg; sourceTree = "<group>"; };
+		F13A2F121D4C64AD00487B66 /* b9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b9.jpeg; sourceTree = "<group>"; };
 		F19F053B1C33CCF3006E459C /* SelectImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19F053E1C33CCF3006E459C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F19F05401C33CCF3006E459C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SelectImageDemo/Assets.xcassets; sourceTree = "<group>"; };
 		F19F05431C33CCF3006E459C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F19F05451C33CCF3006E459C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SelectImageDemo/Info.plist; sourceTree = "<group>"; };
 		F19F054C1C33CD67006E459C /* RandCodeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandCodeImageView.swift; sourceTree = "<group>"; };
-		F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = getPassCodeNew.jpeg; sourceTree = "<group>"; };
 		F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandCodeImageView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,6 +61,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F13A2F051D4C64AD00487B66 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				F13A2F061D4C64AD00487B66 /* a1.jpeg */,
+				F13A2F071D4C64AD00487B66 /* a2.jpeg */,
+				F13A2F081D4C64AD00487B66 /* a3.jpeg */,
+				F13A2F091D4C64AD00487B66 /* a4.jpeg */,
+				F13A2F0A1D4C64AD00487B66 /* b1.jpeg */,
+				F13A2F0B1D4C64AD00487B66 /* b2.jpeg */,
+				F13A2F0C1D4C64AD00487B66 /* b3.jpeg */,
+				F13A2F0D1D4C64AD00487B66 /* b4.jpeg */,
+				F13A2F0E1D4C64AD00487B66 /* b5.jpeg */,
+				F13A2F0F1D4C64AD00487B66 /* b6.jpeg */,
+				F13A2F101D4C64AD00487B66 /* b7.jpeg */,
+				F13A2F111D4C64AD00487B66 /* b8.jpeg */,
+				F13A2F121D4C64AD00487B66 /* b9.jpeg */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
 		F19F05321C33CCF3006E459C = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +105,7 @@
 				F19F05421C33CCF3006E459C /* MainMenu.xib */,
 				F19F054C1C33CD67006E459C /* RandCodeImageView.swift */,
 				F1D6B85B1C8E7B4900B51383 /* RandCodeImageView2.swift */,
-				F19F054E1C33D1C4006E459C /* getPassCodeNew.jpeg */,
+				F13A2F051D4C64AD00487B66 /* pic */,
 			);
 			path = SelectImageDemo;
 			sourceTree = "<group>";
@@ -134,9 +178,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F19F054F1C33D1C4006E459C /* getPassCodeNew.jpeg in Resources */,
+				F13A2F1B1D4C64AD00487B66 /* b5.jpeg in Resources */,
+				F13A2F161D4C64AD00487B66 /* a4.jpeg in Resources */,
+				F13A2F131D4C64AD00487B66 /* a1.jpeg in Resources */,
+				F13A2F1C1D4C64AD00487B66 /* b6.jpeg in Resources */,
 				F19F05411C33CCF3006E459C /* Assets.xcassets in Resources */,
+				F13A2F141D4C64AD00487B66 /* a2.jpeg in Resources */,
+				F13A2F171D4C64AD00487B66 /* b1.jpeg in Resources */,
+				F13A2F151D4C64AD00487B66 /* a3.jpeg in Resources */,
+				F13A2F191D4C64AD00487B66 /* b3.jpeg in Resources */,
+				F13A2F1D1D4C64AD00487B66 /* b7.jpeg in Resources */,
+				F13A2F1A1D4C64AD00487B66 /* b4.jpeg in Resources */,
+				F13A2F1E1D4C64AD00487B66 /* b8.jpeg in Resources */,
+				F13A2F1F1D4C64AD00487B66 /* b9.jpeg in Resources */,
 				F19F05441C33CCF3006E459C /* MainMenu.xib in Resources */,
+				F13A2F181D4C64AD00487B66 /* b2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
