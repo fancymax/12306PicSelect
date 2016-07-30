@@ -673,7 +673,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="506" height="318"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="506" height="318"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -708,6 +708,16 @@
                         </buttonCell>
                         <connections>
                             <action selector="getNextImage:" target="Voe-Tx-rLC" id="eZ1-zB-F43"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SzG-PR-yQD">
+                        <rect key="frame" x="23" y="103" width="81" height="32"/>
+                        <buttonCell key="cell" type="push" title="test" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dHp-5a-TWn">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="test:" target="Voe-Tx-rLC" id="hLW-17-Gxi"/>
                         </connections>
                     </button>
                 </subviews>
