@@ -170,7 +170,7 @@ class RandCodeImageView2:NSImageView {
     }
     
     //119,65|24,76
-    public func drawDamaCodes(damaCodes:String){
+    func drawDamaCodes(damaCodes:String){
         let damaFrameStrs = damaCodes.componentsSeparatedByString("|")
         for damaFrameStr in damaFrameStrs {
             let damaFramePair = damaFrameStr.componentsSeparatedByString(",")
