@@ -16,6 +16,7 @@
             <connections>
                 <outlet property="imageView" destination="Qlu-3h-HPy" id="obs-M4-7g7"/>
                 <outlet property="randCodeLabel" destination="f9O-9x-SxP" id="hfK-t8-Lfx"/>
+                <outlet property="totalTimeTxt" destination="jhH-g1-ijL" id="HvJ-iW-ycB"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -700,6 +701,16 @@
                             <action selector="getRandCode:" target="Voe-Tx-rLC" id="lMM-yl-sIA"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w8I-bD-ed0">
+                        <rect key="frame" x="19" y="151" width="66" height="32"/>
+                        <buttonCell key="cell" type="push" title="余额" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="af4-id-WfQ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="clickGetBalance:" target="Voe-Tx-rLC" id="3uG-S4-bwb"/>
+                        </connections>
+                    </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Sa-Eg-31G">
                         <rect key="frame" x="14" y="235" width="81" height="32"/>
                         <buttonCell key="cell" type="push" title="下一张" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="aVJ-4J-fBX">
@@ -711,15 +722,31 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SzG-PR-yQD">
-                        <rect key="frame" x="23" y="103" width="81" height="32"/>
-                        <buttonCell key="cell" type="push" title="test" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dHp-5a-TWn">
+                        <rect key="frame" x="19" y="113" width="66" height="32"/>
+                        <buttonCell key="cell" type="push" title="打码" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="dHp-5a-TWn">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
                         </buttonCell>
                         <connections>
-                            <action selector="test:" target="Voe-Tx-rLC" id="hLW-17-Gxi"/>
+                            <action selector="dama:" target="Voe-Tx-rLC" id="wOk-Xs-MQ4"/>
                         </connections>
                     </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUF-F8-vCZ">
+                        <rect key="frame" x="122" y="9" width="56" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="耗时(秒):" id="c23-fU-tAj">
+                            <font key="font" size="13" name=".PingFangSC-Regular"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhH-g1-ijL">
+                        <rect key="frame" x="183" y="9" width="288" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="BMK-pN-YiU">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="702" y="452"/>
